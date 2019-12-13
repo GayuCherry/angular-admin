@@ -1,0 +1,31 @@
+ <div class="background"> 
+  </div>
+  <div class="backgroundBottom">   
+    </div>
+<br><br><br>
+
+<div class="homePageButtons"> 
+    <div class="button_cont" align="center" (click)="adminClick()"><a class="userdetails" 
+         target="userdetails" rel="nofollow noopener">Admins</a>
+    </div>
+    <br>
+    <div class="button_cont" align="center" (click)="userClick()"><a class="exam" 
+         target="exam" rel="nofollow noopener">Users Details</a>
+    </div>
+    <br>
+    <div class="button_cont" align="center" (click)="paymentClick()"><a class="examreg" 
+         target="examreg" rel="nofollow noopener">User Payments</a>
+    </div>
+    <br>
+    <div class="button_cont" align="center" (click)="scoreClick()"><a class="results" 
+         target="results" rel="nofollow noopener">User Scores</a>
+    </div>
+    <div>
+         
+    </div>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+
